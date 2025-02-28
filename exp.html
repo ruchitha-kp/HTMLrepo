@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #fdfbee; /* Light beige background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .feedback-container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 400px;
+        }
+        h2 {
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+        .emoji-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .emoji-box {
+            padding: 15px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+            text-align: center;
+        }
+        .emoji-box img {
+            width: 50px;
+            height: 50px;
+        }
+        .emoji-box:hover, .selected {
+            background: #f8f8f8;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        button {
+            background: black;
+            color: white;
+            padding: 12px;
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="feedback-container">
+        <h2>How satisfied are you with our customer support performance?</h2>
+        <div class="emoji-container">
+            <div class="emoji-box">
+                <img src="https://img.icons8.com/emoji/48/000000/pensive-face.png" alt="Unhappy">
+                <p>Unhappy</p>
+            </div>
+            <div class="emoji-box">
+                <img src="https://img.icons8.com/emoji/48/000000/neutral-face.png" alt="Neutral">
+                <p>Neutral</p>
+            </div>
+            <div class="emoji-box selected">
+                <img src="https://img.icons8.com/emoji/48/000000/smiling-face-with-heart-eyes.png" alt="Satisfied">
+                <p>Satisfied</p>
+            </div>
+        </div>
+        <button>Send Review</button>
+    </div>
+</body>
+</html>
