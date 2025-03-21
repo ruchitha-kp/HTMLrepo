@@ -1,0 +1,24 @@
+body {
+    font-family:'Arial',sans-serif;
+    margin: s0;
+    padding: 0;
+    }
+    header {
+    background-color: #acbac0;
+    color: #ffffff;
+    padding: 10px;
+    text-align:center;
+    }
+    nav u1 {
+    list-style:none;
+    padding:0;
+    display:flex;
+    justify-content:center;
+    }
+    nav li {
+    margin:0 10px;
+    }
+    main {
+    padding:20px;
+    }
+    
